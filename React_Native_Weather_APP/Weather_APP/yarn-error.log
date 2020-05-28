@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\WINDOWS.X64_193000_db_home\bin;C:\WINDOWS.X64_193000_db_home\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WORK_anaconda3;C:\Program Files (x86)\Graphviz2.38\bin;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\PDJ\AppData\Local\Android\Sdk\platform-tools;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\PDJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Users\PDJ\Desktop\cuda;D:\bin;C:\Windows\System32;C:\Users\PDJ\AppData\Local\atom\bin;C:\Program Files (x86)\GnuWin32\bin;C:\node-v11.9.0-win-x64\node-v11.9.0-win-x64;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin;;C:\Users\PDJ\AppData\Local\Microsoft\WindowsApps;C:\Users\PDJ\AppData\Local\Yarn\bin;C:\Users\PDJ\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: UNKNOWN: unknown error, copyfile 'C:\Users\PDJ\AppData\Local\Yarn\Cache\v6\npm-react-native-0.61.4-69f3f63c36c9df52611847a67c9d94596c1754cc\node_modules\react-native\ReactCommon\jsi\JSCRuntime.cpp' -> 'C:\Users\PDJ\Documents\learning-react\React_Native_Weather_APP\React_Native_Weather_APP\Weather_APP\node_modules\react-native\ReactCommon\jsi\JSCRuntime.cpp'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~37.0.3",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.1.0",
+      "@babel/core": "^7.8.6"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
