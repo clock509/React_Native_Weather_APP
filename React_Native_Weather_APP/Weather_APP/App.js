@@ -24,7 +24,7 @@ export default class extends React.Component {
     ); //units=metric: Celcius degree
     this.setState({
       isLoading: false,
-      condition: "Haze", //weather[0].main,
+      condition: weather[0].main,
       temp
     })
   };
