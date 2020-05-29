@@ -77,13 +77,13 @@ const weatherOptions = {
 export default function Weather({ temp, condition }) {
   return (
     <LinearGradient
-      colors={weatherOptions[condition].gradient} //먼저 쓰는 것이 상단, 나중에 쓰는 것이 하단
+      colors={weatherOptions[condition].gradient} //gradient값은 먼저 쓰는 것이 상단, 나중에 쓰는 것이 하단
       style={styles.container}
     >
       <StatusBar barStyle="light-content" />
       <View style={styles.halfContainer}>
         <MaterialCommunityIcons
-          size={96}
+          size={96} //vector icon이므로 사이즈 조절 가능
           name={weatherOptions[condition].iconName || "weather-sunset"} //condition에 해당하는 날씨가 없을 경우 에러가 날 것이다. //weather-sunset: 디폴트 아이콘(weatherOptions에 없는 condition이 발생할 수도 있으므로)
           color="white"
         />
@@ -99,8 +99,8 @@ export default function Weather({ temp, condition }) {
 }
 
 Weather.propTypes = {
-  temp: PropTypes.number.isRequired,
-  condition: PropTypes.oneOf([
+  temp: PropTypes.number.isRequired, //isRequired인 props가 전달되지 않으면 console.log에서 경고가 보임.
+  condition: PropTypes.oneOf([ //열거형으로 처리하여 props가 특정 값들로 제한되도록 함.
     "Thunderstorm",
     "Drizzle",
     "Rain",
@@ -119,8 +119,8 @@ Weather.propTypes = {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center"
+    justifyContent: "center", //justifyContent: flexDirection으로부터 수평한 정렬(flexDirection과 같은 방향 )
+    alignItems: "center" //alignItems: flexDirection으로부터 수직한 정렬(flexDirection과 다른 방향)
   },
 
   temp: {
